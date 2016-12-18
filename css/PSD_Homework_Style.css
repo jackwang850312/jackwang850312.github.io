@@ -1,0 +1,353 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+img{
+	max-width: 100%;
+	height: auto;
+}
+
+/* Initail font-family */
+
+p, h1, h2, h3, label, input{
+	font-family: Microsoft JhengHei;
+}
+
+h1, h2, h3{
+	font-weight: bold;
+}
+
+/* wrap */
+
+.wrap{
+	width: 1000px;
+	margin: 0 auto;
+}
+
+/* header */
+
+.header{
+	background-image: url(../img/banner.png);
+	background-repeat: no-repeat;
+	max-width: 1000px;
+	height: 418px;
+	margin-bottom: 60px;
+}
+
+.bar{
+	width: 99.9%;
+	background: #f6f6f6;
+	display: block;
+	height: 30px;
+}
+
+.bar ul{
+	float: right;
+}
+
+.bar li{
+	float: left;
+	padding-top: 5px;
+	padding-right: 15px;
+}
+
+.bar img{
+	float: left;
+}
+
+.bar span{
+	float: left;
+}
+
+.bar a{
+	text-decoration: none;
+	font-size: 16px;
+}
+
+.clearfix{
+	clear: both;
+}
+
+.menu{
+	width: 99.9%;
+	background: white;
+	display: block;
+	height: 45px;
+	padding-top: 5px;
+}
+
+.menu h1 a{
+	background-image: url(../img/logo.png);
+	background-repeat: no-repeat;
+	width: 170px;
+	height: 36px;
+	float: left;
+	margin-top: 5px;
+	text-indent: 101%;
+	overflow: hidden;
+}
+
+.menu ul{
+	float: right;
+}
+
+.menu li{
+	float: left;
+}
+
+.menu li a{
+	font-weight: bold;
+	padding-top: 10px;
+	margin-right: 30px;
+	text-decoration: none;
+	line-height: 35px;
+	color: #31e4ab;
+}
+
+.menu li a:hover{
+	padding-bottom: 15px;
+	border-bottom: 5px solid #31e4ab;
+}
+
+/* End header */
+
+/* intro */
+
+.intro{
+	height: 323px;
+	margin-bottom: 60px;
+}
+
+.intro ul{
+	float: right;
+}
+
+.intro li{
+	float: left;
+	width: 30.33333%;
+	height: 320px;
+	border-left: 3px solid #f1f1f1;
+	border-right: 3px solid #f1f1f1;
+	border-bottom: 3px solid #dbdbdb;
+	margin-left: 1%;
+	margin-right: 1%;
+}
+
+.intro li a{
+	margin-right: 30px;
+	text-decoration: none;
+}
+
+.intro .img_html5{
+	padding-left: 90px;
+	padding-right: 90px;
+}
+
+.intro .img_responsive{
+	padding-top: 20px;
+	padding-left: 30px;
+	padding-bottom: 30px;
+}
+
+.intro .img_jquery{
+	padding-left: 100px;
+	padding-bottom: 15px;
+}
+
+.intro li a h2{
+	text-align: center;
+	color: black;
+}
+
+.intro li a p{
+	padding: 10px;
+	color: black;
+	line-height: 25px;
+}
+
+/* End intro */
+
+/* table */
+
+.table{
+	margin-bottom: 60px;
+	padding-left: 50px;
+}
+
+.table h2{
+	margin-right: 50px;
+	font-size: 30px;
+	text-align: center;
+	line-height: 30px;
+	padding-bottom: 30px;
+}
+
+.content th, .content td{
+	border-top: 2px solid #dddddd;
+	border-bottom: 2px solid #dddddd;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	padding-left: 20px;
+	padding-right: 100px;
+	text-align: left;
+}
+
+.content th{
+	font-weight: bold;
+	background: #f7f7f7;
+}
+
+/* End table */
+
+/* feedback */
+
+.feedback{
+	padding-top: 30px;
+	height: 400px;
+	background: -webkit-linear-gradient(#00644b,#009771);
+	background: -o-linear-gradient(#00644b,#009771);
+	background: -moz-linear-gradient(#00644b,#009771);
+	background: linear-gradient(#00644b,#009771);
+	margin-bottom: 60px;
+}
+
+.feedback h2{
+	text-align: center;
+	font-size: 30px;
+	line-height: 40px;
+	color: white;
+	padding-bottom: 30px;
+}
+
+.feedback textarea{
+	resize: none;
+	float: left;
+	width: 448px;
+	height: 260px;
+	background: white;
+	margin-left: 20px;
+	margin-right: 50px;
+}
+
+.feedback form{
+	float: left;
+	width: 1000px;
+}
+
+.feedback label{
+	display: block;
+	color: white;
+	font-weight: bold;
+	margin-bottom: 5px;
+	cursor: pointer;
+}
+
+.feedback input[type="text"]{
+	font-size: 18px;
+	width: 400px;
+	height: 25px;
+	border-width: 0px; 
+	border-radius: 5px;
+	margin-bottom: 15px;
+	padding: 5px 15px;
+}
+
+.feedback input[type="submit"]{
+	background-color: #00cc99; 
+	color: white; 
+	border-width: 0; 
+	border-radius: 5px; 
+	padding: 5px 20px; 
+	font-size: 18px; 
+	font-weight: bold; 
+	float: right; 
+	margin-right: 46px;
+}
+
+.feedback input[type="submit"]:hover{
+	background: blue;
+	cursor: pointer;
+}
+
+.feedback input[type="submit"]:active{
+	background: yellow;
+	color: black;
+}
+
+/* End feedback*/
+
+/* footer */
+
+.footer{
+	margin-bottom: 60px;
+}
+
+.footer h1 a{
+	background-image: url(../img/footer-logo.png);
+	background-repeat: no-repeat;
+	width: 170px;
+	height: 36px;
+	float: left;
+	margin-right: 550px;
+	text-indent: 101%;
+	overflow: hidden;
+}
+
+.footer h3{
+	float: left;
+	margin-bottom: 10px;
+}
+
+.footer p{
+	display: inline;
+	color: #e3458a;
+}
+
+/* End footer*/
+
+/* End wrap */
