@@ -1,0 +1,15 @@
+.DS_Store
+sftp-config*
+
+/cmd/.sass-cache/*
+
+/cmd/node_modules/*
+/cmd/npm-debug.log
+
+/*.html
+/api/*
+/asset/*
+/towns/*
+/sitemap/*
+
+/robots.txt
