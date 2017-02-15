@@ -13,7 +13,7 @@
 
 <body>
     
-    <table class="for-table">
+    <table class="each-table">
 
         <thead>
 
@@ -39,22 +39,14 @@
 
             var json = data;
 
-            console.log(
-                   data
-                );
+            var eachTable = $(".each-table tbody");
 
-            var forTable = $(".for-table tbody");
-
-            var jsonSum = json.length;
-
-            for (var i = 0; i < jsonSum; i++) {
-
-                forTable.append("<tr>" +
-                                    "<td>" + json[i].County + "</td>" +
-                                    "<td>" + json[i].Status + "</td>" +
-                                    "</tr>");
-
-            }
+            $.each(json, function(index, element) {
+                eachTable.append("<tr>" +
+                                    "<td>" + element.County + "</td>" +
+                                    "<td>" + element.Status + "</td>" +
+                                "</tr>");
+            });
 
         });
 
